@@ -1,0 +1,65 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(201, 121, 91);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f0d0c1;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 2em 0;
+    text-align: center;
+    font-size: larger;
+}
+
+section {
+    padding: 2em;
+    margin: 1em 0;
+}
+
+.project {
+    background: #f9f9f9;
+    padding: 1em;
+    margin: 1em 0;
+    border: 1px solid #ddd;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+#about,#contact,#education,#skills,#strengths,#projects{
+    border: 2px solid black;
+    background-color: #ddd;
+}
+.ab{
+    text-decoration: underline;
+}
